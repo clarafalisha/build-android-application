@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#4CAF50">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="18dp">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="id_hotel"
+                android:visibility="gone"/>
+
+                <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Nama"/>
+
+            <TextView
+                android:id="@+id/tv_nowaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nama"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="NO WA : "/>
+
+            <TextView
+                android:id="@+id/tv_nowa"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_nowaa"
+                android:layout_below="@+id/tv_nama"
+                android:textSize="15dp"
+                android:text="no wa "/>
+
+            <TextView
+                android:id="@+id/tv_tipekamarr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_nowa"
+                android:layout_below="@+id/tv_nama"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="TIPE KAMAR : "/>
+
+            <TextView
+                android:id="@+id/tv_tipekamar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nama"
+                android:layout_toRightOf="@+id/tv_tipekamarr"
+                android:textSize="15dp"
+                android:text="tipe kamar"/>
+
+            <TextView
+                android:id="@+id/tv_orangg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nowa"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="JUMLAH ORANG : "/>
+
+            <TextView
+                android:id="@+id/tv_orang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nowa"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv_orangg"
+                android:textSize="15dp"
+                android:text="orang"/>
+
+
+            <TextView
+                android:id="@+id/tv_harii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nowa"
+                android:layout_toRightOf="@+id/tv_orang"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="JUMLAH HARI : "/>
+
+            <TextView
+                android:id="@+id/tv_hari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nowa"
+                android:layout_toRightOf="@+id/tv_harii"
+                android:textSize="15dp"
+                android:text="jumlah hari"/>
+
+
+            <TextView
+                android:id="@+id/tv_totall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_orang"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="TOTAL : "/>
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_totall"
+                android:layout_below="@id/tv_orang"
+                android:textSize="15dp"
+                android:text="total"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking"
+    android:orientation="vertical"
+    android:background="#4CAF50">
+
+        <ImageView
+            android:id="@+id/img_hotel"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/lgh"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tvlgh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LANGIRIA GUEST HOUSE"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvnama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap :"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtnama"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvnomor"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor WA :"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtnomor"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor WA"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvtipekamar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipe Kamar :"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edttipekamar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipe Kamar"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvjmlorang"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Orang :"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtjmlorang"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Orang"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvjmlhari"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Hari :"
+            android:textSize="15dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtjmlhari"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hari"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvtotal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RP"
+            android:textSize="30dp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/btnhitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="HITUNG"/>
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="OK"/>
+
+        <TextView
+            android:id="@+id/tvket"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Pembayaran dilakukan secara cash ditempat"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
